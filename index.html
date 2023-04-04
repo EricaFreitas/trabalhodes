@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Salão de Beleza Sabri</title>
+    <link rel="stylesheet" href="salao.css">
+  </head>
+  <body>
+    <h1>Agende seu Horário</h1>
+    <form>
+      <label for="nome"> Nome</label>
+      <input type="text" id="nome" class="inputpadrao" required>
+      <br>
+      <label for="email"> Email</label>
+      <input type="email" id="email" class="inputpadrao" required>
+      <br>
+      <label for="telefone" id="telefone"> Telefone</label>
+      <input type="tel" id="telefone" class="inputpadrao" required>
+      <br>
+      <label for="rg" id="rg"> RG</label>
+      <input type="rg" id="rg" class="inputpadrao" required>
+      <br>
+      <label for="cidade" id="cidade"> Cidade</label>
+      <input type="cidade" id="cidade" class="inputpadrao">
+
+      <fieldset>
+        <legend>Que tipo de serviço quer receber notificação de promoção?</legend>
+        <label for="radio-maquiagem"><input type="radio" name="promo" value="maquiagem" id="radio-maquiagem"> Maquiagem</label>
+
+        <label for="radio-cabelo"><input type="radio" name="promo" value="cabelo" id="radio-cabelo"> Cabelo</label>
+
+        <label for="radio-sombrancelha"><input type="radio" name="promo" value="sombrancelha" id="radio-sombrancelha" checked> Sombrancelha</label>
+      </fieldset>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+            <th>Com Quem</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Segunda</td>
+            <td>15:00</td>
+            <td>Camilla</td>
+          </tr>
+          <tr>
+            <td>Terça</td>
+            <td>15:00</td>
+            <td>Erica</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>15:00</td>
+            <td>Estela</td>
+          </tr>
+          <tr>
+            <td>Quinta</td>
+            <td>15:00</td>
+            <td>Erica</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>15:00</td>
+            <td>Camilla</td>
+          </tr>
+      </table>
+
+    </form>
+
+  </body>
+</html>
